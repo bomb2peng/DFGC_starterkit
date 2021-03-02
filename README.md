@@ -18,3 +18,7 @@ except the data in this set or obtained from this set.
 
 * **test-list.txt**: This is the testing video set used for evaluation. *submit_image_list.txt* images are extracted from 
 this set. Do NOT use this set for training detection models or model validation.
+
+## Coming Soon... ##
+* The sample submission for the detection track (code and model).  
+* The training codes of a baseline Xception model for detection track.
