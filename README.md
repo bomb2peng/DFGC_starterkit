@@ -5,8 +5,9 @@ Please apply for CelebDF-v2 dataset from this [site](https://github.com/yuezunli
 ## List Files ##
 * **submit_image_list.txt**: For the creation track, this is the names of specified 1000 image to be submitted. e.g. "id0_id1_0000_00060" 
 stands for the *60*th frame of the target video *id0_0000.mp4* with its face swapped to *id1*. Submitted images must be 
-named exactly as specified in this file, and the format can be '.png' or '.jpg'. The 1000 images should be packed into a single 
-.zip file with no extra subdirectories. e.g.:  
+named exactly as specified in this file, and the format can be '.png' or '.jpg'. Note the face-swapped image should have
+exactly the same image size (width and height) as the original target frame. 
+The 1000 images should be packed into a single .zip file with no extra subdirectories. e.g.:  
 *submission.zip*  
 --id0_id1_0000_00000.png  
 --id0_id1_0000_00060.png  
