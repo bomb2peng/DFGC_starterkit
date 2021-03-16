@@ -60,6 +60,12 @@ You can install this docker image to test your submissions locally as in the sam
 The actual evaluation will be running on an Alibaba Cloud Linux server instance with a Nvidia T4 GPU (16GB GPU mem) and 
 4 CPU cores and 15GB memories.
 
+In case your inference code needs extra python packages that are not installed in our docker image, please include them in your submission zip. 
+An example detection submission is in *submission_Det2* that uses efficientnet_pytorch and albumentations (it depends on imgaug) as extra dependencies 
+(model weights file is omitted). 
+Note how we add python paths and import these packages in the *model.py*. Again, it is highly recomended to first test your submissions locally using 
+our evaluation docker image and test your package imports.
+
 ## Coming Soon... ##
 * ~~The sample submission for the detection track (code and model).~~ 
 * ~~The training codes of a baseline Xception model for detection track.~~
