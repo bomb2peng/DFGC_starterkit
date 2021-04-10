@@ -1,3 +1,6 @@
+## Updates ##  
+* 4-10: added a new "landms_68" field in the sample_meta.json file. We are now providing the 68 facial landmarks apart from bounding box and 5-landmark information. Landmarks are arranged in a column of "x1 y1 x2 y2 ... x68 y68". Note fake images submitted by different teams share exactly the same set of landmark labelling with the baseline fake images, which is an approximation and may have minor errors. So use this information with caution.
+
 ## Introcuction ##  
 This the the starter-kit for the [DFGC-2021 competition](https://competitions.codalab.org/competitions/29548).
 Please apply for CelebDF-v2 dataset from this [site](https://github.com/yuezunli/celeb-deepfakeforensics).
