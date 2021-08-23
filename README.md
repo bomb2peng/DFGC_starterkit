@@ -1,7 +1,8 @@
-## Updates ##  
+## Updates ## 
+* NEWS! -- The first place solution of DFGC detection track is [here](https://github.com/beibuwandeluori/DFGC_Detection).
 * NEWS! -- We released the [DFGC-21 competition summary paper](https://arxiv.org/abs/2106.01217) and the [DFGC-21 dataset](https://github.com/bomb2peng/DFGC_starterkit/tree/master/DFGC-21%20dataset).
 * NEWS! -- The competition final results are announced on the [Codalab page](https://competitions.codalab.org/competitions/29583#learn_the_details-final-results). Congratulations to the winners!
-* 4-10: added a new "landms_68" field in the sample_meta.json file. We are now providing the 68 facial landmarks apart from bounding box and 5-landmark information. Landmarks are arranged in a column of "x1 y1 x2 y2 ... x68 y68". Note fake images submitted by different teams share exactly the same set of landmark labelling with the baseline fake images, which is an approximation and may have minor errors. So use this information with caution.
+* April 10: added a new "landms_68" field in the sample_meta.json file. We are now providing the 68 facial landmarks apart from bounding box and 5-landmark information. Landmarks are arranged in a column of "x1 y1 x2 y2 ... x68 y68". Note fake images submitted by different teams share exactly the same set of landmark labelling with the baseline fake images, which is an approximation and may have minor errors. So use this information with caution.
 
 ## Introcuction ##  
 This the the starter-kit for the [DFGC-2021 competition](https://competitions.codalab.org/competitions/29548).
