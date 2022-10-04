@@ -1,3 +1,6 @@
+## NEWS!
+The new DFGC-2022 dataset and summary paper are released [here](https://github.com/NiCE-X/DFGC-2022). Check it out!
+
 ## Introduction
 This dataset is collected from the [DeepFake Game Competition (DFGC)](https://competitions.codalab.org/competitions/29583#learn_the_details-overview)
  held at [IJCB-21](http://ijcb2021.iapr-tc4.org/). The fake subsets are created by DFGC creation track participants 
