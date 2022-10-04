@@ -1,4 +1,5 @@
 ## Updates ## 
+* NEWS! -- The DFGC-2022 competition dataset and summary paper are released [here](https://github.com/NiCE-X/DFGC-2022).
 * NEWS! -- The first place solution of DFGC detection track is [here](https://github.com/beibuwandeluori/DFGC_Detection).
 * NEWS! -- We released the [DFGC-21 competition summary paper](https://arxiv.org/abs/2106.01217) and the [DFGC-21 dataset](https://github.com/bomb2peng/DFGC_starterkit/tree/master/DFGC-21%20dataset).
 * NEWS! -- The competition final results are announced on the [Codalab page](https://competitions.codalab.org/competitions/29583#learn_the_details-final-results). Congratulations to the winners!
